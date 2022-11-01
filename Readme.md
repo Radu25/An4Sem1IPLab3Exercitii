@@ -3,12 +3,24 @@ git config --global user.name Radu25
 git congig --global user.email radu.25201@gmail.com
 git init
 
-git checkout -b mybranch1
+notepad Readme.md
+git add .
+git status
+git commit 
 
-//Dupa ce lucrez pe main
-//Verific ca in subfoldere nu am folderul git.
 
-git add .  
+git remote add origin 'https://github.com/Radu25/An4Sem1IPLab3Exercitii'
+git push -u origin master
 
+git checkout -b mybranch
+git status
+git add .
 git commit
+git checkout master
+git merge mybranch
+git log --oneline --all --graph
+git push -u origin master
+
+
+
 
