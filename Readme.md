@@ -1,4 +1,4 @@
-comenzi incepatoare: 
+comenzi incepatoare:   
 git config --global user.name Radu25  
 git congig --global user.email radu.25201@gmail.com  
 git init  
